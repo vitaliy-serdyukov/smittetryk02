@@ -18,7 +18,7 @@ class XSmittetryk02ApplicationTests {
     @Test
     void testFunc() {
         List<County> counties = countyRepository.findAll();
-        Assertions.assertEquals(3, counties.size());
+        Assertions.assertEquals(34, counties.size());
 
     }
 
